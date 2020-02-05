@@ -11,7 +11,11 @@
 // Rewrite countBs to make use of this new function.
 
 function countChar(str, char) {
-
+    
+    function countBs(str) {
+        n = str.search("B", "U") 
+       return n.length;
+   }
 
 }
 // -------------------------------------------------------------------------

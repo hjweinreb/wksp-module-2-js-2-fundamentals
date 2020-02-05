@@ -19,7 +19,8 @@ const notCode = ['summer', 'bacon', 'scary', 'intergalactic', 'jerry', 'morty', 
 
 // Q1
 // How many names does Morty have? (use grandson)
-
+let grandsonNames = grandson.split
+console.log(grandsonNames.length)
 
 
 // Q2
