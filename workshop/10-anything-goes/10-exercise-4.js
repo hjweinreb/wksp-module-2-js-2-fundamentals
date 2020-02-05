@@ -5,6 +5,11 @@
 // Hint: consider using .filter(), .indexOf() and .lastIndexOf()
 
 function filterNonUnique(array) {
+    const filtered = array.filter(function(item) {
+        return array.indexOf(item) === array.lastIndexOf(item);
+    
+    });
+    return filtered;
 
 }
 

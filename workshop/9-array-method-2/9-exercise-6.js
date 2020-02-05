@@ -8,8 +8,11 @@
 // For example: greet(["bob", "eric"]) returns ["Hello bob", "Hello eric"]
 
 function greet(lst) {
-    // lst is an array of strings
-
+    const greeter = lst.map(function(name) {
+        return ("hello"+(name));
+    });
+    return greeter;
 }
+
 // -------------------------------------------------------------------------
 console.log('Q6 greet()', greet(['David', 'Billy', 'Lisa', 'Jennifer']));

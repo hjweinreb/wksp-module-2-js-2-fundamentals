@@ -5,7 +5,11 @@
 // Also, wouldn't it be nice if there were a Math method that could simplify the code....
 // https://www.w3schools.com/jsreF/jsref_obj_math.asp
 
-
+    function maxNum(num1, num2){
+        largerNumber = Math.max(num1,num2)
+        console.log(largerNumber)
+    }
+    maxNum(5,6)
 
 
 
@@ -13,6 +17,12 @@
 // Without changing the function at all, 
 // can you figure out how we could use it to determine the greater number between 4 integers?
 
+function maxNum(num1, num2){
+    largerNumber = Math.max(num1,num2)
+    console.log(largerNumber)
+}
+maxNum(5,6)
+maxNum(largerNumber, 10)
 
 
 // Q2c

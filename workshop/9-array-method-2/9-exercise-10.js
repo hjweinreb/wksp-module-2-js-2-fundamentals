@@ -9,7 +9,32 @@
 // <100 is A
 
 // Write function here
+function calculateAverage(grades) {
+    let sum = 0;
 
+    grades.forEach(function(grade) {
+        sum + grade;
+    });
+    average = Math.round(sum / grades.length);
+    if (average < 60) {
+        console.log("F");
+    }
+    else if (average < 70){
+        console.log("D")
+    }
+    else if (average < 80) {
+        console.log("C")
+    }
+    else if (average < 90) {
+        console.log("B")
+    }
+    else if (average < 100) {
+        console.log("A")
+    }
+}
+
+
+console.log(calculateAverage([48, 95, 65, 48, 59, 78, 72, 65]));
 
  
 // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]

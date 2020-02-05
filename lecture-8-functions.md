@@ -57,8 +57,18 @@
 ```js
 // Q1. Write a function that returns the sum of 3 numbers.
 
+function(sumFinder){
+    return(num1+num2+num3)
+}
+sumFinder(num1+num2+num3)
 
 // Q2. Write a function that returns the square of a number minus twice the number.
+
+function(squareSub) {
+    return((num*num) - (2*num));
+
+}
+squareSub()
 
 
 // Q3. Write a function that returns the a person's full name, given their first and last names.
